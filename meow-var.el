@@ -209,7 +209,8 @@ This option will affect the color of position hint and fake region cursor."
     (term-mode . normal)
     (text-mode . normal)
     (vterm-mode . normal)
-    (Custom-mode . normal))
+    (Custom-mode . normal)
+    (minibuffer-mode . insert))
   "A list of rules, each is (major-mode . init-state).
 
 The init-state can be any state, including custom ones."
