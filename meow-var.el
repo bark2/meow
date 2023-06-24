@@ -253,7 +253,8 @@ This option will affect the color of position hint and fake region cursor."
     (fundamental-mode . normal)
     (help-mode . motion)
     (prog-mode . normal)
-    (text-mode . normal))
+    (text-mode . normal)
+    (minibuffer-mode . insert))
   "A list of rules, each is (major-mode . init-state).
 
 The init-state can be any state, including custom ones."

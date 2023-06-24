@@ -728,9 +728,8 @@ that bound to DEF. Otherwise, return DEF."
 (defun meow--init-buffers ()
   "Enable meow in existing buffers."
   (dolist (buf (buffer-list))
-    (unless (minibufferp buf)
       (with-current-buffer buf
-        (meow--enable)))))
+        (meow--enable))))
 
 (defun meow--get-leader-keymap ()
   (cond
