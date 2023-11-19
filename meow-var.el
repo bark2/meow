@@ -141,7 +141,7 @@ Each item is a (THING FORWARD_SYNTAX_TO_INCLUDE BACKWARD-SYNTAX_TO_INCLUDE)."
 
 (defcustom meow-char-thing-table
   '((?r . round)
-    (?s . square)
+    (?s . line)
     (?c . curly)
     (?g . string)
     (?e . symbol)
