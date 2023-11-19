@@ -110,7 +110,7 @@ This will affect how selection is displayed."
 
 (defcustom meow-char-thing-table
   '((?r . round)
-    (?s . square)
+    (?s . line)
     (?c . curly)
     (?g . string)
     (?e . symbol)
