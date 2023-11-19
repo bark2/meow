@@ -210,7 +210,12 @@ This option will affect the color of position hint and fake region cursor."
     (text-mode . normal)
     (vterm-mode . normal)
     (Custom-mode . normal)
-    (minibuffer-mode . insert))
+
+    (minibuffer-mode . insert)
+    (compilation-mode . normal)
+    (rustic-cargo-run-mode . normal)
+    (rustic-compilation-mode . normal)
+    )
   "A list of rules, each is (major-mode . init-state).
 
 The init-state can be any state, including custom ones."
