@@ -351,7 +351,7 @@ Nil means find the command by key binding."
 
 (defvar meow-update-cursor-functions-alist
   '((meow--cursor-null-p . meow--update-cursor-default)
-    (minibufferp         . meow--update-cursor-default)
+    ;; (minibufferp         . meow--update-cursor-default)
     (meow-insert-mode-p  . meow--update-cursor-insert)
     (meow-normal-mode-p  . meow--update-cursor-normal)
     (meow-motion-mode-p  . meow--update-cursor-motion)
